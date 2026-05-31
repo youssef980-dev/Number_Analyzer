@@ -21,7 +21,7 @@ def squar_number(num):
  result=num*num
  print("Squar root : ",result)
 while True:
- print("Enter Number for Star or enter 'stop' to exit")
+ print("Enter Number for Start or enter 'stop' to exit")
  num=input("Enter your number :")
  if num=='stop':
   print("Good bye")
