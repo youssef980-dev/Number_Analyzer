@@ -1,7 +1,8 @@
 # a function to determine if the number is prime or not
 def number(num):
-    if num<1:
+    if num<=1:
         print("prime : no")
+        return
     for i in range(2,num):
       if num%i==0:
         
@@ -17,7 +18,7 @@ def even_odd(num):
         print("Type : odd")
 # a function to calculate the square of the number
 def squar_number(num):
- result=num**0.5   ## علامة ** تعني الاس 
+ result=num*num
  print("Squar root : ",result)
 while True:
  print("Enter Number for Star or enter 'stop' to exit")
