@@ -17,7 +17,7 @@ def even_odd(num):
         print("Type : odd")
 # a function to calculate the square of the number
 def squar_number(num):
- result=num*num
+ result=num**0.5   ## علامة ** تعني الاس 
  print("Squar root : ",result)
 while True:
  print("Enter Number for Star or enter 'stop' to exit")
